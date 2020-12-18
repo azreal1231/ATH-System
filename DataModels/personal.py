@@ -3,6 +3,7 @@ from couchdb.mapping import *
 
 class Personal(Document):
     ID_Number = TextField(default="")
+    appointed = TextField(default="")
     Name = TextField(default="")
     Surname = TextField(default="")
     Contact_Details = DictField(default={'Contact_Number': '', 'Contact_Email': ''})
