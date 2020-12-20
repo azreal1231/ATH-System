@@ -229,3 +229,87 @@ class Hospital_Equipment(Document):
                                         'Electrosurgical_unit': {'Amount': ''}, 'Suction_machine_electrica': {'Amount': ''},
                                         'X_ray_viewer': {'Amount': ''}, 'Patient_trolley': {'Amount': ''}}})
 
+    PT = DictField(default={'Shortwave_Diathermy': {'Amount': ''}, 'Microwave_Diathermy': {'Amount': ''},
+                            'Ultrasound_unit': {'Amount': ''}, 'infra_red_lamp': {'Amount': ''},
+                            'Infra_red_radiation_IRR_craddle': {'Amount': ''}, 'Ultraviolet': {'Amount': ''},
+                            'TENS_Unit ': {'Amount': ''}, 'Wax_bath': {'Amount': ''},
+                            'Stimulator_electric': {'Amount': ''}, 'Pack_heater': {'Amount': ''},
+                            'Static_bicycle': {'Amount': ''}, 'Pulley': {'Amount': ''},
+                            'Hand_exerciser': {'Amount': ''}, 'Electro_massager': {'Amount': ''},
+                            'Chest_expander': {'Amount': ''}, 'Rowing_machine': {'Amount': ''},
+                            'Quandricep_exerciser': {'Amount': ''}, 'Timer': {'Amount': ''},
+                            'Exerciser_mirror': {'Amount': ''}, 'Shoulder_wheel': {'Amount': ''},
+                            'Wall_bars': {'Amount': ''}, 'Wheel_chair': {'Amount': ''},
+                            'Exercise_mat': {'Amount': ''}, 'Parallel_bars': {'Amount': ''},
+                            'Crutches': {'Amount': ''}, 'Calipers': {'Amount': ''},
+                            'Tripod': {'Amount': ''}, 'Walking_frame': {'Amount': ''},
+                            'Dump_bells_assorted': {'Amount': ''}, 'Cervical_traction': {'Amount': ''},
+                            'Lumber_traction': {'Amount': ''}, 'Cryotherapy': {'Amount': ''},
+                            'Phototherapy_unit': {'Amount': ''}})
+
+    OT = DictField(default={'Playing_mats': {'Amount': ''}, 'Assorted_toys': {'Amount': ''},
+                            'FEPS_machine': {'Amount': ''}, 'Ladder_and_slide': {'Amount': ''},
+                            'Balancing_board': {'Amount': ''}, 'Examination_couch': {'Amount': ''},
+                            'Loom_frame': {'Amount': ''}, 'Shoulder_exerciser': {'Amount': ''},
+                            'Static_bicycle': {'Amount': ''}, 'Stemgnosis_set': {'Amount': ''},
+                            'Goniometer': {'Amount': ''}, 'Beach_balls': {'Amount': ''},
+                            'Crawling_tunnel': {'Amount': ''}, 'Plaster_shoers': {'Amount': ''},
+                            'Hammock': {'Amount': ''}, 'Spinning_board': {'Amount': ''},
+                            'Tin_snip': {'Amount': ''}, 'Children_piano_with_key_board': {'Amount': ''},
+                            'Rotating_punch': {'Amount': ''}, 'Hand_saw': {'Amount': ''},
+                            'Hammer': {'Amount': ''}, 'Drought_board': {'Amount': ''},
+                            'Dart_board': {'Amount': ''}, 'Scrabble': {'Amount': ''},
+                            'Chess_board': {'Amount': ''}, 'Lamp_shade_frame': {'Amount': ''},
+                            'Stool_frame': {'Amount': ''}})
+
+    ORT = DictField(default={'Work_bench': {'Amount': ''}, 'Examination_couch': {'Amount': ''},
+                             'Electric_leather_sewing_machine': {'Amount': ''}, 'Parallel_bar': {'Amount': ''},
+                             'Electric_oven': {'Amount': ''}, 'Electric_cast_cutter': {'Amount': ''},
+                             'Limb_Vice': {'Amount': ''}, 'Jig_saw': {'Amount': ''},
+                             'Arc_welding_machine': {'Amount': ''}, 'Column_drill_with_quick_chuck': {'Amount': ''},
+                             'Heat_gun': {'Amount': ''}, 'Grinding_machine': {'Amount': ''},
+                             'Vacuum_laminating_machine': {'Amount': ''}, 'Air_compressor': {'Amount': ''},
+                             'Shoe_stretcher': {'Amount': ''}, 'Prosthetic_kit': {'Amount': ''},
+                             'Orthotic_kit': {'Amount': ''}, 'Engineers_vice': {'Amount': ''},
+                             'Drilling_machine': {'Amount': ''}, 'Spoke_shave': {'Amount': ''},
+                             'Bending_iron': {'Amount': ''}, 'Router_machine': {'Amount': ''},
+                             'PVA_sealing_iron': {'Amount': ''}, 'Scissors': {'Amount': ''},
+                             'Surform': {'Amount': ''}})
+
+    MAINTENANCE = DictField(default={'Toolbox_complete': {'Amount': ''}, 'Digital_clamp_meter': {'Amount': ''},
+                                     'Drilling_Machine_hand': {'Amount': ''}, 'Grinder_angle': {'Amount': ''},
+                                     'Welding_Machine_ARC': {'Amount': ''}, 'Hammer': {'Amount': ''},
+                                     'Blower': {'Amount': ''}, 'Gas_Welding_Torches': {'Amount': ''},
+                                     'Flaring_Tool': {'Amount': ''}, 'Systems_Analyser_Refrigeration_': {'Amount': ''},
+                                     'Bench_Vice': {'Amount': ''}, 'Soldering_gun': {'Amount': ''},
+                                     'Die_Stock_complete': {'Amount': ''}, 'Multi_meter': {'Amount': ''},
+                                     'Air_Compressor': {'Amount': ''}, 'Bending_machine': {'Amount': ''}})
+
+    KITCHEN = DictField(default={'Cooking_pot': {'Amount': ''}, 'Cold_room': {'Amount': ''},
+                                 'Potato_Peeler': {'Amount': ''}, 'Gas_cooker': {'Amount': ''},
+                                 'Weighing_machine': {'Amount': ''}, 'Food_trolley': {'Amount': ''},
+                                 'Meat_mincer': {'Amount': ''}, 'Lactometer': {'Amount': ''},
+                                 'Flasks': {'Amount': ''}, 'Tea_Urn': {'Amount': ''},
+                                 'Refrigerator_domestic': {'Amount': ''}})
+
+    LAUNDRY = DictField(default={'Washer_extractor': {'Amount': ''}, 'Drier': {'Amount': ''},
+                                 'Ironer': {'Amount': ''}, '': {'Amount': ''},
+                                 'Linen_cupboard': {'Amount': ''}, 'Linen_trolley': {'Amount': ''}})
+
+    PLANT = DictField(default={'Standby_Generato': {'Amount': ''}})
+
+    MORTUARY = DictField(default={'Autopsy_table': {'Amount': ''}, 'Autopsy_Instruments': {'Amount': ''},
+                                  'Cold_room_Units': {'Amount': ''}, 'Examination_Lamp': {'Amount': ''},
+                                  'Extractor_Fan': {'Amount': ''}, 'Body_Trolley': {'Amount': ''},
+                                  'Viewing_table': {'Amount': ''}, 'Preparation_table': {'Amount': ''}})
+
+    HMF = DictField(default={'Hospital_bed_standard': {'Amount': '375'}, 'Bed_side_locker_wooden': {'Amount': '375'},
+                             'Bench': {'Amount': '70'}, 'Bin_peda': {'Amount': '60'},
+                             'Cabinet_dangerous_drug': {'Amount': '15'}, 'Conference_table': {'Amount': '2'},
+                             'Clothing_lockers_meta': {'Amount': '165'}, 'Coffee_table': {'Amount': '25'},
+                             'Cot_child_drop': {'Amount': '5'}, 'Crib_trolley_infant': {'Amount': '5'},
+                             'Cupboard': {'Amount': '45'}, 'Desk_single_pedestal_with_3_drawers': {'Amount': '70'},
+                             'Emergency_trolley': {'Amount': '10'}, 'Executive_chair': {'Amount': '10'},
+                             'Filling_cabinet': {'Amount': '80'}, 'Key_cabinet': {'Amount': '5'},
+                             'Mattress_for_adult_bed_polyurethane_foam': {'Amount': '375'}, 'Office_chair': {'Amount': '135'},
+                             'Stool': {'Amount': '130'}, 'Waste_paper_tub': {'Amount': '50'}})

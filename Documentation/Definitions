@@ -10,16 +10,16 @@ NOB = Number Of Beds
 https://www.who.int/medical_devices/survey_resources/medical_devices_by_facility_provincial_hospitals_kenya.pdf
 
 --------MEDICAL-EQUIPMENT----------
-X_RAY
-LABORATORY
-THEATRE
-ICU
-HBU
-CSSD
-OPD
-PHAR
+X_RAY =
+LABORATORY =
+THEATRE =
+ICU =
+HBU =
+CSSD =
+OPD =
+PHAR =
 EU = EYE UNIT
-ENT
+ENT =
 DU = DENTAL UNIT
 DL = DENTAL LAB
 MT = MINOR THEATER
@@ -29,3 +29,11 @@ MCH_FP =
 WARD =
 MATERNITY =
 PT = PHSYSIOTHERAPY
+OT = OCCUPATIONAL THERAPY
+ORT = ORTHOPAEDIC TECHNOLOGY
+MAINTENANCE =
+KITCHEN =
+LAUNDRY =
+Plant =
+MORTUARY =
+HMF = HOSPITAL / MEDICAL FURNITURE
