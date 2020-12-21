@@ -276,14 +276,14 @@ class Hospital_Equipment(Document):
                              'PVA_sealing_iron': {'Amount': ''}, 'Scissors': {'Amount': ''},
                              'Surform': {'Amount': ''}})
 
-    MAINTENANCE = DictField(default={'Toolbox_complete': {'Amount': ''}, 'Digital_clamp_meter': {'Amount': ''},
-                                     'Drilling_Machine_hand': {'Amount': ''}, 'Grinder_angle': {'Amount': ''},
-                                     'Welding_Machine_ARC': {'Amount': ''}, 'Hammer': {'Amount': ''},
-                                     'Blower': {'Amount': ''}, 'Gas_Welding_Torches': {'Amount': ''},
-                                     'Flaring_Tool': {'Amount': ''}, 'Systems_Analyser_Refrigeration_': {'Amount': ''},
-                                     'Bench_Vice': {'Amount': ''}, 'Soldering_gun': {'Amount': ''},
-                                     'Die_Stock_complete': {'Amount': ''}, 'Multi_meter': {'Amount': ''},
-                                     'Air_Compressor': {'Amount': ''}, 'Bending_machine': {'Amount': ''}})
+    MAINTENANCE = DictField(default={'Toolbox_complete': {'Amount': '4'}, 'Digital_clamp_meter': {'Amount': '2'},
+                                     'Drilling_Machine_hand': {'Amount': '2'}, 'Grinder_angle': {'Amount': '2'},
+                                     'Welding_Machine_ARC': {'Amount': '1'}, 'Hammer': {'Amount': '2'},
+                                     'Blower': {'Amount': '1'}, 'Gas_Welding_Torches': {'Amount': '1'},
+                                     'Flaring_Tool': {'Amount': '1'}, 'Systems_Analyser_Refrigeration_': {'Amount': '1'},
+                                     'Bench_Vice': {'Amount': '2'}, 'Soldering_gun': {'Amount': '2'},
+                                     'Die_Stock_complete': {'Amount': '1'}, 'Multi_meter': {'Amount': '2'},
+                                     'Air_Compressor': {'Amount': '1'}, 'Bending_machine': {'Amount': '1'}})
 
     KITCHEN = DictField(default={'Cooking_pot': {'Amount': '3'}, 'Cold_room': {'Amount': '1'},
                                  'Potato_Peeler': {'Amount': '1'}, 'Gas_cooker': {'Amount': '2'},
