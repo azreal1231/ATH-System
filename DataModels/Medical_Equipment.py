@@ -298,10 +298,10 @@ class Hospital_Equipment(Document):
 
     PLANT = DictField(default={'Standby_Generato': {'Amount': ''}})
 
-    MORTUARY = DictField(default={'Autopsy_table': {'Amount': ''}, 'Autopsy_Instruments': {'Amount': ''},
-                                  'Cold_room_Units': {'Amount': ''}, 'Examination_Lamp': {'Amount': ''},
-                                  'Extractor_Fan': {'Amount': ''}, 'Body_Trolley': {'Amount': ''},
-                                  'Viewing_table': {'Amount': ''}, 'Preparation_table': {'Amount': ''}})
+    MORTUARY = DictField(default={'Autopsy_table': {'Amount': '2'}, 'Autopsy_Instruments': {'Amount': '2'},
+                                  'Cold_room_Units': {'Amount': '2'}, 'Examination_Lamp': {'Amount': '2'},
+                                  'Extractor_Fan': {'Amount': '2'}, 'Body_Trolley': {'Amount': '4'},
+                                  'Viewing_table': {'Amount': '1'}, 'Preparation_table': {'Amount': '2'}})
 
     HMF = DictField(default={'Hospital_bed_standard': {'Amount': '375'}, 'Bed_side_locker_wooden': {'Amount': '375'},
                              'Bench': {'Amount': '70'}, 'Bin_peda': {'Amount': '60'},
