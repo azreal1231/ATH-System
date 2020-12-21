@@ -285,12 +285,12 @@ class Hospital_Equipment(Document):
                                      'Die_Stock_complete': {'Amount': ''}, 'Multi_meter': {'Amount': ''},
                                      'Air_Compressor': {'Amount': ''}, 'Bending_machine': {'Amount': ''}})
 
-    KITCHEN = DictField(default={'Cooking_pot': {'Amount': ''}, 'Cold_room': {'Amount': ''},
-                                 'Potato_Peeler': {'Amount': ''}, 'Gas_cooker': {'Amount': ''},
-                                 'Weighing_machine': {'Amount': ''}, 'Food_trolley': {'Amount': ''},
-                                 'Meat_mincer': {'Amount': ''}, 'Lactometer': {'Amount': ''},
-                                 'Flasks': {'Amount': ''}, 'Tea_Urn': {'Amount': ''},
-                                 'Refrigerator_domestic': {'Amount': ''}})
+    KITCHEN = DictField(default={'Cooking_pot': {'Amount': '3'}, 'Cold_room': {'Amount': '1'},
+                                 'Potato_Peeler': {'Amount': '1'}, 'Gas_cooker': {'Amount': '2'},
+                                 'Weighing_machine': {'Amount': '1'}, 'Food_trolley': {'Amount': '5'},
+                                 'Meat_mincer': {'Amount': '2'}, 'Lactometer': {'Amount': '2'},
+                                 'Flasks': {'Amount': '5'}, 'Tea_Urn': {'Amount': '5'},
+                                 'Refrigerator_domestic': {'Amount': '1'}})
 
     LAUNDRY = DictField(default={'Washer_extractor': {'Amount': '2'}, 'Drier': {'Amount': '2'},
                                  'Ironer': {'Amount': '1'}, 'Linen_cupboard': {'Amount': '2'},
