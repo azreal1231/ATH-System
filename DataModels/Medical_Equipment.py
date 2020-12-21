@@ -262,19 +262,19 @@ class Hospital_Equipment(Document):
                             'Chess_board': {'Amount': ''}, 'Lamp_shade_frame': {'Amount': ''},
                             'Stool_frame': {'Amount': ''}})
 
-    ORT = DictField(default={'Work_bench': {'Amount': ''}, 'Examination_couch': {'Amount': ''},
-                             'Electric_leather_sewing_machine': {'Amount': ''}, 'Parallel_bar': {'Amount': ''},
-                             'Electric_oven': {'Amount': ''}, 'Electric_cast_cutter': {'Amount': ''},
-                             'Limb_Vice': {'Amount': ''}, 'Jig_saw': {'Amount': ''},
-                             'Arc_welding_machine': {'Amount': ''}, 'Column_drill_with_quick_chuck': {'Amount': ''},
-                             'Heat_gun': {'Amount': ''}, 'Grinding_machine': {'Amount': ''},
-                             'Vacuum_laminating_machine': {'Amount': ''}, 'Air_compressor': {'Amount': ''},
-                             'Shoe_stretcher': {'Amount': ''}, 'Prosthetic_kit': {'Amount': ''},
-                             'Orthotic_kit': {'Amount': ''}, 'Engineers_vice': {'Amount': ''},
-                             'Drilling_machine': {'Amount': ''}, 'Spoke_shave': {'Amount': ''},
-                             'Bending_iron': {'Amount': ''}, 'Router_machine': {'Amount': ''},
-                             'PVA_sealing_iron': {'Amount': ''}, 'Scissors': {'Amount': ''},
-                             'Surform': {'Amount': ''}})
+    ORT = DictField(default={'Work_bench': {'Amount': '1'}, 'Examination_couch': {'Amount': '1'},
+                             'Electric_leather_sewing_machine': {'Amount': '1'}, 'Parallel_bar': {'Amount': '2'},
+                             'Electric_oven': {'Amount': '1'}, 'Electric_cast_cutter': {'Amount': '1'},
+                             'Limb_Vice': {'Amount': '2'}, 'Jig_saw': {'Amount': '1'},
+                             'Arc_welding_machine': {'Amount': '1'}, 'Column_drill_with_quick_chuck': {'Amount': '1'},
+                             'Heat_gun': {'Amount': '1'}, 'Grinding_machine': {'Amount': '1'},
+                             'Vacuum_laminating_machine': {'Amount': '1'}, 'Air_compressor': {'Amount': '1'},
+                             'Shoe_stretcher': {'Amount': '1'}, 'Prosthetic_kit': {'Amount': '1'},
+                             'Orthotic_kit': {'Amount': '1'}, 'Engineers_vice': {'Amount': '2'},
+                             'Drilling_machine': {'Amount': '1'}, 'Spoke_shave': {'Amount': '2'},
+                             'Bending_iron': {'Amount': '2'}, 'Router_machine': {'Amount': '1'},
+                             'PVA_sealing_iron': {'Amount': '2'}, 'Scissors': {'Amount': '3'},
+                             'Surform': {'Amount': '2'}})
 
     MAINTENANCE = DictField(default={'Toolbox_complete': {'Amount': '4'}, 'Digital_clamp_meter': {'Amount': '2'},
                                      'Drilling_Machine_hand': {'Amount': '2'}, 'Grinder_angle': {'Amount': '2'},
