@@ -292,9 +292,9 @@ class Hospital_Equipment(Document):
                                  'Flasks': {'Amount': ''}, 'Tea_Urn': {'Amount': ''},
                                  'Refrigerator_domestic': {'Amount': ''}})
 
-    LAUNDRY = DictField(default={'Washer_extractor': {'Amount': ''}, 'Drier': {'Amount': ''},
-                                 'Ironer': {'Amount': ''}, '': {'Amount': ''},
-                                 'Linen_cupboard': {'Amount': ''}, 'Linen_trolley': {'Amount': ''}})
+    LAUNDRY = DictField(default={'Washer_extractor': {'Amount': '2'}, 'Drier': {'Amount': '2'},
+                                 'Ironer': {'Amount': '1'}, 'Linen_cupboard': {'Amount': '2'},
+                                 'Linen_trolley': {'Amount': '3'}})
 
     PLANT = DictField(default={'Standby_Generato': {'Amount': '1'}})
 
