@@ -296,7 +296,7 @@ class Hospital_Equipment(Document):
                                  'Ironer': {'Amount': ''}, '': {'Amount': ''},
                                  'Linen_cupboard': {'Amount': ''}, 'Linen_trolley': {'Amount': ''}})
 
-    PLANT = DictField(default={'Standby_Generato': {'Amount': ''}})
+    PLANT = DictField(default={'Standby_Generato': {'Amount': '1'}})
 
     MORTUARY = DictField(default={'Autopsy_table': {'Amount': '2'}, 'Autopsy_Instruments': {'Amount': '2'},
                                   'Cold_room_Units': {'Amount': '2'}, 'Examination_Lamp': {'Amount': '2'},
