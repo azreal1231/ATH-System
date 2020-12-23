@@ -175,9 +175,9 @@ class Hospital_Equipment(Document):
                               'Stainless_Steel_trays': {'Amount': ''}, 'Gastric_lavage_set': {'Amount': ''},
                               'Pulse_oximeter': {'Amount': ''}})
 
-    LAP = DictField(default={'Binocular_microsco': {'Amount': ''}, 'Calorimeter': {'Amount': ''},
-                             'Centrifuge': {'Amount': ''}, 'Glucose_analyzer': {'Amount': ''},
-                             'Haemoglobinometer_electronic': {'Amount': ''}})
+    LAP = DictField(default={'Binocular_microsco': {'Amount': '2'}, 'Calorimeter': {'Amount': '1'},
+                             'Centrifuge': {'Amount': '1'}, 'Glucose_analyzer': {'Amount': '2'},
+                             'Haemoglobinometer_electronic': {'Amount': '1'}})
 
     MCH_FP = DictField(default={'Cool_box': {'Amount': '2'}, 'Electric_cookers': {'Amount': '1'},
                                 'Examination_couch_metal_wooden': {'Amount': '4'}, 'Examination_lamp_mobile': {'Amount': '2'},
