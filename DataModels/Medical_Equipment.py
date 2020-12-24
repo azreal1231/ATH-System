@@ -117,15 +117,15 @@ class Hospital_Equipment(Document):
                              'Jobson_horn_probe': {'Amount': ''}, 'Nasal_speculum': {'Amount': ''},
                              'Tympanometer': {'Amount': ''}, 'Lightsource_endoscopic_': {'Amount': ''}})
 
-    DU = DictField(default={'Amalgamator': {'Amount': ''}, 'Dental_chair_unit': {'Amount': ''},
-                            'Suction_machine': {'Amount': ''}, 'X_ray_viewe': {'Amount': ''},
-                            'Dental_instrument_cabinet': {'Amount': ''}, 'Dental_examination_mirror': {'Amount': ''},
-                            'Examination_probe': {'Amount': ''}, 'Explorers': {'Amount': ''},
-                            'Ultrasonic_scalar': {'Amount': ''}, 'Dental autoclave': {'Amount': ''},
-                            'Dental_extraction_forceps_assorted_see_annex': {'Amount': ''}, 'Dental_Compressor_50_litres': {'Amount': ''},
-                            'Hand_pieces_4holes_high_speed': {'Amount': ''}, 'Condensers': {'Amount': ''},
-                            'Curvers': {'Amount': ''}, 'Excavators': {'Amount': ''},
-                            'Burnishers': {'Amount': ''}})
+    DU = DictField(default={'Amalgamator': {'Amount': '1'}, 'Dental_chair_unit': {'Amount': '3'},
+                            'Suction_machine': {'Amount': '1'}, 'X_ray_viewe': {'Amount': '1'},
+                            'Dental_instrument_cabinet': {'Amount': '1'}, 'Dental_examination_mirror': {'Amount': '20'},
+                            'Examination_probe': {'Amount': '20'}, 'Explorers': {'Amount': '20'},
+                            'Ultrasonic_scalar': {'Amount': '1'}, 'Dental_autoclave': {'Amount': '1'},
+                            'Dental_extraction_forceps_assorted_see_annex': {'Amount': '2'}, 'Dental_Compressor_50_litres': {'Amount': '1'},
+                            'Hand_pieces_4holes_high_speed': {'Amount': '10'}, 'Condensers': {'Amount': '0'},
+                            'Curvers': {'Amount': '20'}, 'Excavators': {'Amount': '20'},
+                            'Burnishers': {'Amount': '0'}})
 
     DL = DictField(default={'Curing_bath': {'Amount': '1'}, 'Model_trimmer': {'Amount': '1'},
                             'High_speed_grinde': {'Amount': '1'}, 'Model_drier': {'Amount': '1'},
