@@ -65,10 +65,10 @@ class Hospital_Equipment(Document):
                              'Trolley_dressing': {'Amount': ''}, 'Infusion_stand': {'Amount': ''},
                              'Suction_machine_electric': {'Amount': ''}, 'Patient_trolley': {'Amount': ''}})
 
-    CSSD = DictField(default={'Autoclave_large': {'Amount': ''}, 'Instrument_Cabinet': {'Amount': ''},
-                              'Ultrasonic_Washer': {'Amount': ''}, 'Instrument_Shelves': {'Amount': ''},
-                              'Instrument_drying_cabinet': {'Amount': ''}, 'Instrument_sets_assorted_': {'Amount': ''},
-                              'Sterilizing_drums_assorted': {'Amount': ''}})
+    CSSD = DictField(default={'Autoclave_large': {'Amount': '2'}, 'Instrument_Cabinet': {'Amount': '2'},
+                              'Ultrasonic_Washer': {'Amount': '1'}, 'Instrument_Shelves': {'Amount': '2'},
+                              'Instrument_drying_cabinet': {'Amount': '2'}, 'Instrument_sets_assorted_': {'Amount': '3'},
+                              'Sterilizing_drums_assorted': {'Amount': '10'}})
 
     OPD = DictField(default={'Stretcher_with_IV_pole': {'Amount': '6'}, 'Examination_couch_metal_wooden ': {'Amount': '10'},
                              'Examination_lamp_mobile': {'Amount': '3'}, 'Infusion_stand ': {'Amount': '6'},
