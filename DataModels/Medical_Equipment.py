@@ -90,17 +90,17 @@ class Hospital_Equipment(Document):
                               'Counting_trays': {'Amount': ''}, 'Dispensing_stools': {'Amount': ''},
                               'Fire_extinguishe': {'Amount': ''}})
 
-    EU = DictField(default={'Eye_Chart_E_type': {'Amount': ''},'Eye_chart': {'Amount': ''},
-                            'Ophthalmoscope_set': {'Amount': ''}, 'Eye_tonometer': {'Amount': ''},
-                            'Corneal_trephine': {'Amount': ''}, 'Focimeter_240': {'Amount': ''},
-                            'Perimeter': {'Amount': ''}, 'Eye_loupe': {'Amount': ''},
-                            'Trial_Lens': {'Amount': ''}, 'Indirect_Opthalmoscope': {'Amount': ''},
-                            'Eye_examination_microscope_with_tonometer': {'Amount': ''}, 'Eye_operation_microscope': {'Amount': ''},
-                            'Cataract_set': {'Amount': ''}, 'Lid_surgery_set': {'Amount': ''},
-                            'Operating_stool': {'Amount': ''}, 'Spotlight': {'Amount': ''},
-                            'Retinoscope': {'Amount': ''}, 'Slit_Lamp': {'Amount': ''},
-                            'Plant_operating_ophthamology': {'Amount': ''}, 'ICCE_set': {'Amount': ''},
-                            'ECCE_11 set': {'Amount': ''}})
+    EU = DictField(default={'Eye_Chart_E_type': {'Amount': '2'},'Eye_chart': {'Amount': '2'},
+                            'Ophthalmoscope_set': {'Amount': '1'}, 'Eye_tonometer': {'Amount': '1'},
+                            'Corneal_trephine': {'Amount': '1'}, 'Focimeter_240': {'Amount': '1'},
+                            'Perimeter': {'Amount': '1'}, 'Eye_loupe': {'Amount': '2'},
+                            'Trial_Lens': {'Amount': '1'}, 'Indirect_Opthalmoscope': {'Amount': '1'},
+                            'Eye_examination_microscope_with_tonometer': {'Amount': '1'}, 'Eye_operation_microscope': {'Amount': '1'},
+                            'Cataract_set': {'Amount': '2'}, 'Lid_surgery_set': {'Amount': '2'},
+                            'Operating_stool': {'Amount': '2'}, 'Spotlight': {'Amount': '2'},
+                            'Retinoscope': {'Amount': '2'}, 'Slit_Lamp': {'Amount': '2'},
+                            'Plant_operating_ophthamology': {'Amount': '1'}, 'ICCE_set': {'Amount': '2'},
+                            'ECCE_11_set': {'Amount': '2'}})
 
     ENT = DictField(default={'Pneumatic_ear_speculum': {'Amount': '2'}, 'Tuning_fork': {'Amount': '2'},
                              'Noise_Box': {'Amount': '2'}, 'Ear_Syringe': {'Amount': '2'},
