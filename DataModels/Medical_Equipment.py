@@ -70,18 +70,18 @@ class Hospital_Equipment(Document):
                               'Instrument_drying_cabinet': {'Amount': ''}, 'Instrument_sets_assorted_': {'Amount': ''},
                               'Sterilizing_drums_assorted': {'Amount': ''}})
 
-    OPD = DictField(default={'Stretcher_with_IV_pole': {'Amount': ''}, 'Examination_couch_metal_wooden ': {'Amount': ''},
-                             'Examination_lamp_mobile': {'Amount': ''}, 'Infusion_stand ': {'Amount': ''},
-                             'Infant_weighing_scale ': {'Amount': ''}, 'Emergency_lamp': {'Amount': ''},
-                             'Screen_bed ': {'Amount': ''}, 'Spot_light': {'Amount': ''},
-                             'Tape_measure': {'Amount': ''}, 'Weighing_scale_adult': {'Amount': ''},
-                             'Wheel_chair_adult': {'Amount': ''}, 'Diagnostic_set': {'Amount': ''},
-                             'Sphygmomanometer': {'Amount': ''}, 'X_Ray_viewer': {'Amount': ''},
-                             'Thermometer_clinica': {'Amount': ''}, 'Stethoscope': {'Amount': ''},
-                             'Percussion_Hammer': {'Amount': ''}, 'Fetoscope': {'Amount': ''},
-                             'Stethoscope_baby': {'Amount': ''}, 'Suction_machine_electrical': {'Amount': ''},
-                             'Lockable_Cabinet': {'Amount': ''}, 'Fire_extinguisher': {'Amount': ''},
-                             'Oxygen_Set': {'Amount': ''}})
+    OPD = DictField(default={'Stretcher_with_IV_pole': {'Amount': '6'}, 'Examination_couch_metal_wooden ': {'Amount': '10'},
+                             'Examination_lamp_mobile': {'Amount': '3'}, 'Infusion_stand ': {'Amount': '6'},
+                             'Infant_weighing_scale ': {'Amount': '2'}, 'Emergency_lamp': {'Amount': '3'},
+                             'Screen_bed ': {'Amount': '10'}, 'Spot_light': {'Amount': '6'},
+                             'Tape_measure': {'Amount': '8'}, 'Weighing_scale_adult': {'Amount': '2'},
+                             'Wheel_chair_adult': {'Amount': '6'}, 'Diagnostic_set': {'Amount': '8'},
+                             'Sphygmomanometer': {'Amount': '10'}, 'X_Ray_viewer': {'Amount': '8'},
+                             'Thermometer_clinica': {'Amount': '20'}, 'Stethoscope': {'Amount': '10'},
+                             'Percussion_Hammer': {'Amount': '8'}, 'Fetoscope': {'Amount': '4'},
+                             'Stethoscope_baby': {'Amount': '6'}, 'Suction_machine_electrical': {'Amount': '4'},
+                             'Lockable_Cabinet': {'Amount': '4'}, 'Fire_extinguisher': {'Amount': '2'},
+                             'Oxygen_Set': {'Amount': '4'}})
 
     PHAR = DictField(default={'Distiller': {'Amount': '2'}, 'Fridge_Pharmacetical': {'Amount': '3'},
                               'Balance_precision': {'Amount': '2'}, 'Balance_heavy_duty': {'Amount': '2'},
