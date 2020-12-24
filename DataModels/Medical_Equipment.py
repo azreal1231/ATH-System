@@ -60,10 +60,10 @@ class Hospital_Equipment(Document):
                              'Ventilator_adult': {'Amount': ''}, 'Ventilator_infant': {'Amount': ''},
                              'Patient_trolley': {'Amount': ''}})
 
-    HBU = DictField(default={'Bed': {'Amount': ''}, 'Baby_cot': {'Amount': ''},
-                             'Trolley_general_purpose': {'Amount': ''}, 'Trolley_instrument': {'Amount': ''},
-                             'Trolley_dressing': {'Amount': ''}, 'Infusion_stand': {'Amount': ''},
-                             'Suction_machine_electric': {'Amount': ''}, 'Patient_trolley': {'Amount': ''}})
+    HBU = DictField(default={'Bed': {'Amount': '4'}, 'Baby_cot': {'Amount': '4'},
+                             'Trolley_general_purpose': {'Amount': '1'}, 'Trolley_instrument': {'Amount': '2'},
+                             'Trolley_dressing': {'Amount': '2'}, 'Infusion_stand': {'Amount': '4'},
+                             'Suction_machine_electric': {'Amount': '2'}, 'Patient_trolley': {'Amount': '1'}})
 
     CSSD = DictField(default={'Autoclave_large': {'Amount': '2'}, 'Instrument_Cabinet': {'Amount': '2'},
                               'Ultrasonic_Washer': {'Amount': '1'}, 'Instrument_Shelves': {'Amount': '2'},
