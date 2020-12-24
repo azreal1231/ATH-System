@@ -127,27 +127,27 @@ class Hospital_Equipment(Document):
                             'Curvers': {'Amount': ''}, 'Excavators': {'Amount': ''},
                             'Burnishers': {'Amount': ''}})
 
-    DL = DictField(default={'Curing_bath': {'Amount': ''}, 'Model_trimmer': {'Amount': ''},
-                            'High_speed_grinde': {'Amount': ''}, 'Model_drier': {'Amount': ''},
-                            'Dental_flask': {'Amount': ''}, 'Dental_clamp': {'Amount': ''},
-                            'Crown_flask_with_clamp': {'Amount': ''}, 'Wax_knife': {'Amount': ''},
-                            'Polishing_lathe': {'Amount': ''}, 'Orthodontic_plier_set_see_annex': {'Amount': ''},
-                            'Vibrator': {'Amount': ''}, 'Dental_Articulator': {'Amount': ''},
-                            'Work_bench': {'Amount': ''}, 'Pin_dexing': {'Amount': ''},
-                            'Suspension_motor_micromotor_with_stand': {'Amount': ''}, 'Heating_furnace': {'Amount': ''},
-                            'Spirit_lamp': {'Amount': ''}, 'Hydroflask_pressure pot': {'Amount': ''},
-                            'Programmed_porcelain_machine': {'Amount': ''}, 'Plaster_knife': {'Amount': ''},
-                            'Bench_press': {'Amount': ''}, 'Dewaxing_machine': {'Amount': ''},
-                            'Hot_air_syringe': {'Amount': ''}, 'Fret_saw': {'Amount': ''},
-                            'Sand_plaster': {'Amount': ''}, 'Wire_cutter': {'Amount': ''},
-                            'Lecron_cover': {'Amount': ''}, 'Air_compressor': {'Amount': ''},
-                            'Casting_machine': {'Amount': ''}, 'Rubber_mixing_bowl': {'Amount': ''},
-                            'Mixing_spatula': {'Amount': ''}})
+    DL = DictField(default={'Curing_bath': {'Amount': '1'}, 'Model_trimmer': {'Amount': '1'},
+                            'High_speed_grinde': {'Amount': '1'}, 'Model_drier': {'Amount': '1'},
+                            'Dental_flask': {'Amount': '8'}, 'Dental_clamp': {'Amount': '4'},
+                            'Crown_flask_with_clamp': {'Amount': '1'}, 'Wax_knife': {'Amount': '12'},
+                            'Polishing_lathe': {'Amount': '1'}, 'Orthodontic_plier_set_see_annex': {'Amount': '2'},
+                            'Vibrator': {'Amount': '1'}, 'Dental_Articulator': {'Amount': '6'},
+                            'Work_bench': {'Amount': '1'}, 'Pin_dexing': {'Amount': '1'},
+                            'Suspension_motor_micromotor_with_stand': {'Amount': '4'}, 'Heating_furnace': {'Amount': '1'},
+                            'Spirit_lamp': {'Amount': '3'}, 'Hydroflask_pressure pot': {'Amount': '1'},
+                            'Programmed_porcelain_machine': {'Amount': '1'}, 'Plaster_knife': {'Amount': '2'},
+                            'Bench_press': {'Amount': '2'}, 'Dewaxing_machine': {'Amount': '1'},
+                            'Hot_air_syringe': {'Amount': '2'}, 'Fret_saw': {'Amount': '1'},
+                            'Sand_plaster': {'Amount': '1'}, 'Wire_cutter': {'Amount': '4'},
+                            'Lecron_cover': {'Amount': '12'}, 'Air_compressor': {'Amount': '1'},
+                            'Casting_machine': {'Amount': '1'}, 'Rubber_mixing_bowl': {'Amount': '3'},
+                            'Mixing_spatula': {'Amount': '3'}})
 
-    MT = DictField(default={'Operating_table_simple': {'Amount': ''}, 'Trolley_instrument': {'Amount': ''},
-                            'Trolley_dressing': {'Amount': ''}, 'Sphygmomanometer': {'Amount': ''},
-                            'Examination_couch_metal_wooden': {'Amount': ''}, 'Screen_bed': {'Amount': ''},
-                            'Stethoscope': {'Amount': ''}, 'Spot_light': {'Amount': ''}})
+    MT = DictField(default={'Operating_table_simple': {'Amount': '1'}, 'Trolley_instrument': {'Amount': '1'},
+                            'Trolley_dressing': {'Amount': '1'}, 'Sphygmomanometer': {'Amount': '2'},
+                            'Examination_couch_metal_wooden': {'Amount': '1'}, 'Screen_bed': {'Amount': '1'},
+                            'Stethoscope': {'Amount': '2'}, 'Spot_light': {'Amount': '1'}})
 
     CAS = DictField(default={'Examination_couch_metal_wooden': {'Amount': '4'}, 'Examination_lamp_mobile': {'Amount': '2'},
                              'Infusion_stand': {'Amount': '5'}, 'Emergency_lamp': {'Amount': '2'},
