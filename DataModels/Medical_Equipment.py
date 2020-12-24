@@ -83,12 +83,12 @@ class Hospital_Equipment(Document):
                              'Lockable_Cabinet': {'Amount': ''}, 'Fire_extinguisher': {'Amount': ''},
                              'Oxygen_Set': {'Amount': ''}})
 
-    PHAR = DictField(default={'Distiller': {'Amount': ''}, 'Fridge_Pharmacetical': {'Amount': ''},
-                              'Balance_precision': {'Amount': ''}, 'Balance_heavy_duty': {'Amount': ''},
-                              'Motor_pestle': {'Amount': ''}, 'Tablet_counter': {'Amount': ''},
-                              'Weighing_scale_electronic': {'Amount': ''}, 'Drug_cabinet': {'Amount': ''},
-                              'Counting_trays': {'Amount': ''}, 'Dispensing_stools': {'Amount': ''},
-                              'Fire_extinguishe': {'Amount': ''}})
+    PHAR = DictField(default={'Distiller': {'Amount': '2'}, 'Fridge_Pharmacetical': {'Amount': '3'},
+                              'Balance_precision': {'Amount': '2'}, 'Balance_heavy_duty': {'Amount': '2'},
+                              'Motor_pestle': {'Amount': '2'}, 'Tablet_counter': {'Amount': '2'},
+                              'Weighing_scale_electronic': {'Amount': '2'}, 'Drug_cabinet': {'Amount': '2'},
+                              'Counting_trays': {'Amount': '2'}, 'Dispensing_stools': {'Amount': '4'},
+                              'Fire_extinguishe': {'Amount': '1'}})
 
     EU = DictField(default={'Eye_Chart_E_type': {'Amount': '2'},'Eye_chart': {'Amount': '2'},
                             'Ophthalmoscope_set': {'Amount': '1'}, 'Eye_tonometer': {'Amount': '1'},
