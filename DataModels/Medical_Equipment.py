@@ -49,16 +49,16 @@ class Hospital_Equipment(Document):
                                  'Patient_trolley': {'Amount': ''}, 'Instrument_trolleys': {'Amount': ''},
                                  'Suction_machine_electric': {'Amount': ''}, 'Myomectomy_see_annex': {'Amount': ''}})
 
-    ICU = DictField(default={' ICU_bed': {'Amount': ''}, 'Baby_cot': {'Amount': ''},
-                             'Trolley_general purpose': {'Amount': ''}, ' Trolley_instrument': {'Amount': ''},
-                             'Trolley_dressing': {'Amount': ''}, 'infusion_stand ': {'Amount': ''},
-                             'ECG_Monitor': {'Amount': ''}, 'infant_radiant_warmer': {'Amount': ''},
-                             'infusion_pump': {'Amount': ''}, ' Syringe_pump': {'Amount': ''},
-                             'Refrigerator_genera': {'Amount': ''}, ' Patient_monitor': {'Amount': ''},
-                             'Spotlight': {'Amount': ''}, 'Mobile_X_ray_unit': {'Amount': ''},
-                             'Defibrillator': {'Amount': ''}, 'Suction_machine_electric': {'Amount': ''},
-                             'Ventilator_adult': {'Amount': ''}, 'Ventilator_infant': {'Amount': ''},
-                             'Patient_trolley': {'Amount': ''}})
+    ICU = DictField(default={'ICU_bed': {'Amount': '4'}, 'Baby_cot': {'Amount': '4'},
+                             'Trolley_general purpose': {'Amount': '1'}, 'Trolley_instrument': {'Amount': '1'},
+                             'Trolley_dressing': {'Amount': '1'}, 'infusion_stand ': {'Amount': '4'},
+                             'ECG_Monitor': {'Amount': '2'}, 'infant_radiant_warmer': {'Amount': '1'},
+                             'infusion_pump': {'Amount': '4'}, ' Syringe_pump': {'Amount': '4'},
+                             'Refrigerator_general': {'Amount': '1'}, ' Patient_monitor': {'Amount': '2'},
+                             'Spotlight': {'Amount': '2'}, 'Mobile_X_ray_unit': {'Amount': '1'},
+                             'Defibrillator': {'Amount': '1'}, 'Suction_machine_electric': {'Amount': '2'},
+                             'Ventilator_adult': {'Amount': '1'}, 'Ventilator_infant': {'Amount': '1'},
+                             'Patient_trolley': {'Amount': '4'}})
 
     HBU = DictField(default={'Bed': {'Amount': '4'}, 'Baby_cot': {'Amount': '4'},
                              'Trolley_general_purpose': {'Amount': '1'}, 'Trolley_instrument': {'Amount': '2'},
