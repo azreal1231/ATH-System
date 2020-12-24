@@ -4,18 +4,19 @@ from couchdb.mapping import *
 #   '': {'Amount': ''}, '': {'Amount': ''}
 
 class Hospital_Equipment(Document):
-    X_RAY = DictField(default={'Dental_X_ray': {'Amount': ''}, 'Dental_X_ray_film_processor': {'Amount': ''},
-                               'Mobile_X_ray_unit': {'Amount': ''},
-                               'Mobile_X_ray_unit_with_Image_intensifier': {'Amount': ''},
-                               'X_ray_safe_light': {'Amount': ''}, 'Ultra_sound_unit(general)': {'Amount': ''},
-                               'X_ray_viewer_single_screen': {'Amount': 'X_ray_viewer_double_screen)'},
-                               'Cassettee_pass_box': {'Amount': ''}, 'Film_marker': {'Amount': ''},
-                               'General_X_ray_Unit': {'Amount': ''},
-                               'Automatic_Film_Processor': {'Amount': ''}, 'Manual_Film_Processor': {'Amount': ''},
-                               'Film_Drier': {'Amount': ''}, 'Film_hopper': {'Amount': ''},
-                               'X_ray_Cassettes_see_annex': {'Amount': ''}, 'OPG_Uni': {'Amount': ''},
-                               'Screening_unit': {'Amount': ''}, 'Mammography_unit': {'Amount': ''},
-                               'Darkroom_accessories(sets)': {'Amount': ''}})
+    X_RAY = DictField(default={'Dental_X_ray': {'Amount': '1'}, 'Dental_X_ray_film_processor': {'Amount': '2'},
+                               'Mobile_X_ray_unit': {'Amount': '2'},
+                               'Mobile_X_ray_unit_with_Image_intensifier': {'Amount': '1'},
+                               'X_ray_safe_light': {'Amount': '6'}, 'Ultra_sound_unit_general': {'Amount': '1'},
+                               'X_ray_viewer_single_screen': {'2'},
+                               'X_ray_viewer_double_screen': {'2'},
+                               'Cassettee_pass_box': {'Amount': '2'}, 'Film_marker': {'Amount': '2'},
+                               'General_X_ray_Unit': {'Amount': '2'},
+                               'Automatic_Film_Processor': {'Amount': '2'}, 'Manual_Film_Processor': {'Amount': '2'},
+                               'Film_Drier': {'Amount': '2'}, 'Film_hopper': {'Amount': '2'},
+                               'X_ray_Cassettes_see_annex': {'Amount': '1'}, 'OPG_Uni': {'Amount': '1'},
+                               'Screening_unit': {'Amount': '1'}, 'Mammography_unit': {'Amount': '1'},
+                               'Darkroom_accessories(sets)': {'Amount': '1'}})
 
     LABORATORY = DictField(default={'Analytic_balance': {'Amount': '2'}, 'Binocular_microscope': {'Amount': '9'},
                                     'Blood_bank_refrigerator': {'Amount': '2'},
